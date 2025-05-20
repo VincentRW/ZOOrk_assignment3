@@ -15,7 +15,8 @@ public:
     Room(const std::string &, const std::string &);
 
     Room(const std::string &, const std::string &, std::shared_ptr<Command>);
-
+      
+      std::vector<Item*> getItems() const;
       void addItem(Item* item);
       void removeItem(const std::string& name);
       Item* getItem(const std::string& name);
