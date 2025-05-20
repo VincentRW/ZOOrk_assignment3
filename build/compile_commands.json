@@ -1,0 +1,86 @@
+[
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\main.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\main.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/main.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Item.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Item.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Item.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Item.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Character.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Character.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Character.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Character.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Location.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Location.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Location.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Location.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\GameObject.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\GameObject.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/GameObject.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/GameObject.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Room.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Room.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Room.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Room.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Passage.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Passage.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Passage.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Passage.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\NullRoom.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\NullRoom.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/NullRoom.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/NullRoom.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\NullCommand.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\NullCommand.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/NullCommand.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/NullCommand.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\Player.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\Player.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/Player.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\RoomDefaultEnterCommand.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\RoomDefaultEnterCommand.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/RoomDefaultEnterCommand.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/RoomDefaultEnterCommand.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\ZOOrkEngine.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\ZOOrkEngine.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/ZOOrkEngine.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/ZOOrkEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\PassageDefaultEnterCommand.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\PassageDefaultEnterCommand.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/PassageDefaultEnterCommand.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/PassageDefaultEnterCommand.cpp.obj"
+},
+{
+  "directory": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\ZOOrk.dir\\NullPassage.cpp.obj -c \"C:\\Users\\unity\\Downloads\\Binus\\Professional Software Development\\ZOOrk\\NullPassage.cpp\"",
+  "file": "C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/NullPassage.cpp",
+  "output": "CMakeFiles/ZOOrk.dir/NullPassage.cpp.obj"
+}
+]

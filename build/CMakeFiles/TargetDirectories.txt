@@ -1,0 +1,3 @@
+C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build/CMakeFiles/ZOOrk.dir
+C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build/CMakeFiles/edit_cache.dir
+C:/Users/unity/Downloads/Binus/Professional Software Development/ZOOrk/build/CMakeFiles/rebuild_cache.dir

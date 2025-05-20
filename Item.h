@@ -1,6 +1,6 @@
 #ifndef ZOORK_ITEM_H
 #define ZOORK_ITEM_H
-
+#include <memory>
 #include "Command.h"
 #include "GameObject.h"
 #include "NullCommand.h"

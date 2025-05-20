@@ -6,6 +6,7 @@
 #include "Item.h"
 #include "Location.h"
 #include <map>
+#include <memory>
 
 class Passage;
 
