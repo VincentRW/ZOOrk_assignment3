@@ -15,13 +15,13 @@ void Room::addPassage(const std::string &direction, std::shared_ptr<Passage> p) 
 }
 
 void Room::removePassage(const std::string &direction) {
-    if (passageMap.contains(direction)) {
+    if (passageMap.find(direction) != passageMap.end()) {
         passageMap.erase(direction);
     }
 }
 
 std::shared_ptr<Passage> Room::getPassage(const std::string &direction) {
-    if (passageMap.contains(direction)) {
+    if (passageMap.find(direction) != passageMap.end()) {
         return passageMap[direction];
     } else {
         std::cout << "It is impossible to go " << direction << "!\n";

@@ -1,5 +1,6 @@
 #include <memory>
 #include "Player.h"
+#include <memory>
 
 Player *Player::playerInstance = nullptr;
 

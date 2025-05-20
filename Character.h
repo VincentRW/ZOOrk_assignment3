@@ -10,7 +10,7 @@ public:
     Character(const std::string &, const std::string &);
 
 protected:
-//    std::vector<Item*> inventory;
+      std::vector<Item*> inventory;
 //    std::vector<std::string> tags;
 //    int health;
 //    int attack;
