@@ -51,6 +51,10 @@ void Room::removeItem(const std::string& name) {
     }
 }
 
+std::vector<Item*> Room::getItems() const {
+    return items;
+}
+
 Item* Room::retrieveItem(const std::string& name) {
     for (auto it = items.begin(); it != items.end(); ++it) {
         if ((*it)->getName() == name) {

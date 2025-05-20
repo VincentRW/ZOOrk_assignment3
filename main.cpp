@@ -21,13 +21,11 @@ int main() {
     std::shared_ptr<Room> attic = std::make_shared<Room>("attic", "You are in a cluttered attic filled with old trunks.");
     std::shared_ptr<Room> secret_room = std::make_shared<Room>("secret-room", "You have found a secret room hidden behind a bookshelf!");
 
-    // Create items
-    Item* key = new Item("key", "A small rusty key.");
+    Item* key = new Item("key", "A rusty key used to open a door.");
     library->addItem(key);
 
     Player::instance()->setCurrentRoom(foyer.get());
 
-    // Connect rooms with passages
     Passage::createBasicPassage(foyer.get(), library.get(), "north", true);
     Passage::createBasicPassage(library.get(), observatory.get(), "up", true);
     Passage::createBasicPassage(foyer.get(), kitchen.get(), "east", true);
@@ -36,20 +34,18 @@ int main() {
     Passage::createBasicPassage(foyer.get(), ballroom.get(), "west", true);
     Passage::createBasicPassage(ballroom.get(), bedroom.get(), "north", true);
     Passage::createBasicPassage(bedroom.get(), attic.get(), "up", true);
-    Passage::createBasicPassage(library.get(), secret_room.get(), "west", true); // secret room hidden from library
+    Passage::createBasicPassage(library.get(), secret_room.get(), "west", true);
 
-    // Optional: connect other rooms for easy navigation
+
     Passage::createBasicPassage(garden.get(), kitchen.get(), "north", true);
     Passage::createBasicPassage(attic.get(), bedroom.get(), "down", true);
     Passage::createBasicPassage(cellar.get(), foyer.get(), "up", true);
     Passage::createBasicPassage(observatory.get(), library.get(), "down", true);
 
-    // Lock the secret room so it requires the key
     secret_room->setEnterCommand(
     std::make_shared<KeyRequiredCommand>(secret_room.get(), "key", Player::instance())
     );
 
-    // Start the game in the foyer
     ZOOrkEngine zoork(foyer);
     zoork.run();
 
