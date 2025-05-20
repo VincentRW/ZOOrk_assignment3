@@ -370,7 +370,6 @@ CMakeFiles/ZOOrk.dir/Item.cpp.obj: C:/Users/unity/Downloads/Binus/Professional\ 
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
-  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
@@ -424,7 +423,6 @@ CMakeFiles/ZOOrk.dir/Item.cpp.obj: C:/Users/unity/Downloads/Binus/Professional\ 
   C:/msys64/ucrt64/include/c++/14.2.0/tuple \
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
-  C:/msys64/ucrt64/include/c++/14.2.0/utility \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -2565,6 +2563,7 @@ CMakeFiles/ZOOrk.dir/main.cpp.obj: C:/Users/unity/Downloads/Binus/Professional\ 
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Command.h \
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/GameObject.h \
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Item.h \
+  C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/KeyRequiredCommand.h \
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Location.h \
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/NullCommand.h \
   C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/NullRoom.h \
@@ -2975,8 +2974,6 @@ C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Item.h:
 
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Item.cpp:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h:
-
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Location.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h:
@@ -3001,6 +2998,8 @@ C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/RoomDef
 
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Passage.cpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h:
+
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Player.cpp:
 
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/Player.h:
@@ -3022,3 +3021,5 @@ C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 C:/msys64/ucrt64/include/c++/14.2.0/sstream:
 
 C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/main.cpp:
+
+C:/Users/unity/Downloads/Binus/Professional\ Software\ Development/ZOOrk/KeyRequiredCommand.h:

@@ -154,6 +154,7 @@ CMakeFiles/ZOOrk.dir/main.cpp.obj: \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Room.h \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Character.h \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Item.h \
+ C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\NullCommand.h \
  C:/msys64/ucrt64/include/c++/14.2.0/memory \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
@@ -178,7 +179,6 @@ CMakeFiles/ZOOrk.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_algobase.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
- C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\NullCommand.h \
  C:/msys64/ucrt64/include/c++/14.2.0/vector \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \
@@ -193,4 +193,5 @@ CMakeFiles/ZOOrk.dir/main.cpp.obj: \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Player.h \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\ZOOrkEngine.h \
  C:/msys64/ucrt64/include/c++/14.2.0/sstream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc \
+ C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\KeyRequiredCommand.h

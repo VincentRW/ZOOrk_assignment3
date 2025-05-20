@@ -27,7 +27,7 @@ void ZOOrkEngine::run() {
             handleTakeCommand(arguments);
         } else if (command == "drop") {
             handleDropCommand(arguments);
-        } else if (command == "inventory" || command == "inv") { // <-- ADD THIS BLOCK
+        } else if (command == "inventory" || command == "inv") { 
             player->printInventory();
         } else if (command == "quit") {
             handleQuitCommand(arguments);

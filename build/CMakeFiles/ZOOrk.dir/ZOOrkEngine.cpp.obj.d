@@ -117,13 +117,8 @@ CMakeFiles/ZOOrk.dir/ZOOrkEngine.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/14.2.0/tuple \
  C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Item.h \
- C:/msys64/ucrt64/include/c++/14.2.0/memory \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
+ C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Command.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/ostream \
  C:/msys64/ucrt64/include/c++/14.2.0/ios \
  C:/msys64/ucrt64/include/c++/14.2.0/exception \
@@ -164,6 +159,16 @@ CMakeFiles/ZOOrk.dir/ZOOrkEngine.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
+ C:/msys64/ucrt64/include/c++/14.2.0/istream \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
+ C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\NullCommand.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/memory \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/allocated_ptr.h \
@@ -178,11 +183,6 @@ CMakeFiles/ZOOrk.dir/ZOOrkEngine.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_uninitialized.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\Command.h \
- C:/msys64/ucrt64/include/c++/14.2.0/iostream \
- C:/msys64/ucrt64/include/c++/14.2.0/istream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
- C:\Users\unity\Downloads\Binus\Professional\ Software\ Development\ZOOrk\NullCommand.h \
  C:/msys64/ucrt64/include/c++/14.2.0/vector \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \

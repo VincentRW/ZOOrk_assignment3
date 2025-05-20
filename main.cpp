@@ -3,10 +3,13 @@
 #include "Player.h"
 #include "Room.h"
 #include "ZOOrkEngine.h"
+#include "Item.h"
+#include "KeyRequiredCommand.h"
 #include <memory>
+#include <iostream>
 
 int main() {
-    // Create 10 rooms with unique descriptions
+    // Create rooms
     std::shared_ptr<Room> foyer = std::make_shared<Room>("foyer", "You are in the foyer. There is a grand staircase and doors leading in all directions.");
     std::shared_ptr<Room> library = std::make_shared<Room>("library", "You are in a dusty old library. Bookcases line the walls.");
     std::shared_ptr<Room> kitchen = std::make_shared<Room>("kitchen", "You are in the kitchen. Pots and pans hang from the ceiling.");
@@ -17,6 +20,12 @@ int main() {
     std::shared_ptr<Room> bedroom = std::make_shared<Room>("bedroom", "You are in a cozy bedroom with a large bed and a window.");
     std::shared_ptr<Room> attic = std::make_shared<Room>("attic", "You are in a cluttered attic filled with old trunks.");
     std::shared_ptr<Room> secret_room = std::make_shared<Room>("secret-room", "You have found a secret room hidden behind a bookshelf!");
+
+    // Create items
+    Item* key = new Item("key", "A small rusty key.");
+    library->addItem(key);
+
+    Player::instance()->setCurrentRoom(foyer.get());
 
     // Connect rooms with passages
     Passage::createBasicPassage(foyer.get(), library.get(), "north", true);
@@ -29,15 +38,19 @@ int main() {
     Passage::createBasicPassage(bedroom.get(), attic.get(), "up", true);
     Passage::createBasicPassage(library.get(), secret_room.get(), "west", true); // secret room hidden from library
 
-    // Optionally, connect some rooms in both directions for easier navigation
+    // Optional: connect other rooms for easy navigation
     Passage::createBasicPassage(garden.get(), kitchen.get(), "north", true);
     Passage::createBasicPassage(attic.get(), bedroom.get(), "down", true);
     Passage::createBasicPassage(cellar.get(), foyer.get(), "up", true);
     Passage::createBasicPassage(observatory.get(), library.get(), "down", true);
 
+    // Lock the secret room so it requires the key
+    secret_room->setEnterCommand(
+    std::make_shared<KeyRequiredCommand>(secret_room.get(), "key", Player::instance())
+    );
+
     // Start the game in the foyer
     ZOOrkEngine zoork(foyer);
-
     zoork.run();
 
     return 0;

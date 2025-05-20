@@ -1,17 +1,20 @@
 #include "Item.h"
-#include <memory>
-#include <utility>
+#include <iostream>
 
-Item::Item(const std::string &n, const std::string &d) : GameObject(n, d),
-                                                         useCommand(std::make_shared<NullCommand>()) {}
+Item::Item(const std::string &n, const std::string &d)
+    : GameObject(n, d), useCommand(nullptr) {}
 
-Item::Item(const std::string &n, const std::string &d, std::shared_ptr<Command> c) : GameObject(n, d),
-                                                                                     useCommand(std::move(c)) {}
+Item::Item(const std::string &n, const std::string &d, std::shared_ptr<Command> cmd)
+    : GameObject(n, d), useCommand(cmd) {}
 
 void Item::use() {
-    std::cout << "You use the " << name << ", but nothing special happens." << std::endl;
+    if (useCommand) {
+        useCommand->execute();
+    } else {
+        std::cout << "Nothing happens." << std::endl;
+    }
 }
 
-void Item::setUseCommand(std::shared_ptr<Command> c) {
-    useCommand = c;
+void Item::setUseCommand(std::shared_ptr<Command> cmd) {
+    useCommand = cmd;
 }
